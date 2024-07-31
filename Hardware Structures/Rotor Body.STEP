@@ -1,0 +1,28 @@
+ISO-10303-21;
+HEADER;
+FILE_DESCRIPTION (( 'STEP AP214' ),
+    '1' );
+FILE_NAME ('Rotor Body.STEP',
+    '2024-07-31T10:46:03',
+    ( '' ),
+    ( '' ),
+    'SwSTEP 2.0',
+    'SolidWorks 2024',
+    '' );
+FILE_SCHEMA (( 'AUTOMOTIVE_DESIGN' ));
+ENDSEC;
+
+DATA;
+#1 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #3 ) ;
+#2 = PRODUCT_CONTEXT ( 'NONE', #10, 'mechanical' ) ;
+#3 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#4 = PRODUCT_DEFINITION_SHAPE ( 'NONE', 'NONE',  #11 ) ;
+#5 = PRODUCT_DEFINITION_CONTEXT ( 'detailed design', #3, 'design' ) ;
+#6 = PRODUCT ( 'Rotor Body', 'Rotor Body', '', ( #2 ) ) ;
+#7 = PRODUCT_RELATED_PRODUCT_CATEGORY ( 'part', '', ( #6 ) ) ;
+#8 = PRODUCT_DEFINITION_FORMATION_WITH_SPECIFIED_SOURCE ( 'ไป', '', #6, .NOT_KNOWN. ) ;
+#9 = APPLICATION_PROTOCOL_DEFINITION ( 'draft international standard', 'automotive_design', 1998, #10 ) ;
+#10 = APPLICATION_CONTEXT ( 'automotive_design' ) ;
+#11 = PRODUCT_DEFINITION ( 'ๆ', '', #8, #5 ) ;
+ENDSEC;
+END-ISO-10303-21;
